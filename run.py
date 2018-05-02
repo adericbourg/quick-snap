@@ -13,7 +13,7 @@ twitter_access_token_secret = os.environ['TWITTER_ACCESS_TOKEN_SECRET']
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print "No image provided"
+        print("No image provided")
         sys.exit(1)
 
     api = twitter.Api(consumer_key=twitter_consumer_key,
